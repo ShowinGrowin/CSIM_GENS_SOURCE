@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Mod.cpp" />
+    <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="Configuration.cpp" />
+    <ClCompile Include="ArchiveTreePatcher.cpp" />
+    <ClCompile Include="ParamManager.cpp" />
+    <ClCompile Include="AnimationSetPatcher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h" />
+    <ClInclude Include="MemAccess.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h" />
+    <ClInclude Include="ArchiveTreePatcher.h" />
+    <ClInclude Include="AnimationSetPatcher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{c57ea3ea-e311-48cb-a528-7c4f37a5b55b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
